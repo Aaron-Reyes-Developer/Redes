@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: "ubuntu", sans-serif;
+    color: #fff;
+}
+body{
+    background-color:  #1c1c1c ;
+}
+
+
+                            /* ==========CONTENEDOR TOTAL========== */
+.contenedor{
+    width: 75%;
+    height: 500px;
+    margin: auto;
+}
+
+/* ==========CONTENEDOR MI CONTACTO=========== */
+.mi_contacto{
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    line-height: 30px;
+    text-align:center;
+    width: 150px;
+    
+}
+.mi_contacto a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(126, 126, 126, 0.191);
+    width: 100px;
+    border-radius: 5px;
+}
+
+                            /* ==========TITULO 'MIS REDES'========== */
+.titulo{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    
+}
+
+                            /* ==========CONTENEDOR REDES========== */
+.redes{
+    position: relative;
+    top: 150px;
+}
+.redes a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    line-height: 50px;
+    border-radius: 5px;
+}
+
+                            /* ==========COLOR REDES========== */
+#insta{
+    background-color: #d62b7e;
+}
+#face{
+    background-color: #2522e3;
+}
+#youtu{
+    background-color: #c91a1a;
+}
+#tik_tok{
+    background-color: #301b30;
+    border-bottom: 1px solid #0a74a6;
+    border-top: 1px solid #c71e1e ;
+
+}
+#discort{
+    background-color: #262552;
+
+}
+#wp{
+    background-color: #0f6e2a;
+
+}
+
+@media screen and (max-height: 615px) {
+    .mi_contacto{
+       top: 0; 
+    }
+}
